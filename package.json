@@ -8,36 +8,22 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.1",
     "core-js": "^3.4.4",
+    "sass": "^1.24.4",
     "vue": "^2.6.10",
-    "vue-audio-recorder": "^3.0.1"
+    "vue-audio-recorder": "^3.0.1",
+    "vue-dictaphone": "^1.2.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.2",
-    "@vue/cli-plugin-eslint": "^4.1.2",
     "@vue/cli-service": "^4.1.0",
-    "@vue/eslint-config-prettier": "^5.0.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^5.16.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^4.0.2",
+    "node-sass": "^4.13.0",
     "prettier": "^1.19.1",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended",
-      "@vue/prettier"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.5"
   },
   "browserslist": [
     "> 1%",
